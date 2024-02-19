@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Notes-main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  body{
+    /* display: flex;
+    justify-content: center; */
+    /* margin-top: 2rem; */
+    /* margin: auto; */
+  }
+  .notes-container{
+    /* height:auto; */
+    padding: 2rem 0;
+    width: 45vw;
+    background-image: linear-gradient(to right top, #ff21e1, #dc4eda, #bc62cd, #a16dbb, #8b72a4);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  form input{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    font-weight: bold;
+  }
+  form input,textarea{
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 1rem;
+    outline: transparent;
+    border: transparent;
+  }
+  form textarea{
+    border-top: 2px solid black;
+    height: 30vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .notes-container img{
+    display: inline;
+    position: relative;
+    left: 80%;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+  }
+  

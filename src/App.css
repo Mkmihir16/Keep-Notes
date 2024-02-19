@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+ 
+  
+}
+body{
+  height:auto;
+  width: 100vw;
+  /* background-image: linear-gradient(to right top, #def5f9, #bfefed, #a4e7d7, #96deb9, #96d394); */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: center; */
+}

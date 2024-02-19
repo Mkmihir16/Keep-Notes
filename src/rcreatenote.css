@@ -1,0 +1,19 @@
+@media  only screen  and (max-width:760px){
+    .main-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .createnote-container{
+        height: 22vh;
+        width: 35vw;
+    }
+    .createnote-container img{
+        height: 1.5rem;
+        width: 1.5rem;
+        left: 75%;
+    }
+    .main-container{
+        margin:1rem;
+    }
+}
